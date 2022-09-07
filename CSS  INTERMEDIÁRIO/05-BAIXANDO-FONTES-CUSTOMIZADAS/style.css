@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'ananda';
+    src: url(./font/Ananda\ Black\ Personal\ Use.ttf),
+        url(./font/Ananda\ Personal\ Use.ttf) ;
+}
+h1 , p{
+    font-family: 'ananda',Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+}

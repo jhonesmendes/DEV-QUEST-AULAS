@@ -1,0 +1,22 @@
+a{
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* a{
+    cursor: -webkit-zoom-out;
+} */
+
+a:visited { 
+    color: black;
+}
+
+a:active{
+    color: red;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+}

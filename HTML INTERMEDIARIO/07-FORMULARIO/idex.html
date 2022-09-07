@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>formulario </h1>
+    <h3>formulário com GET</h3>
+    <form method="get" action="idex.html" enctype="multipart/form-data">
+        <input type="text" name="q" value="twitter">
+        <input type="submit" value="enviar">
+    </form>
+    <h3>formulário com POST</h3>
+    <form method="post" action="idex.html">
+        <input type="text" name="q" value="">
+        <input type="submit" value="enviar">
+    </form>
+    <h3>formulário com POST</h3>
+    <form method="get" accept="index.html">
+        <input type="text" name="nome" id="nome" placeholder="nome">
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
+        <input type="text" name="celular-ou-email" id="celular-ou-email" placeholder="Celular ou email">       
+        <input type="password" name="senha" id="senha" placeholder="senha">
+        <br>
+        <br>
+        <label>Data de Nacimento</label>
+        <select name="dias">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>            
+        </select>
+
+        <select name="mes">
+            <option value="jan">jan</option>
+            <option value="fer">fer</option>
+            <option value="mai">mai</option>                   
+        </select>
+
+        <select name="dias">
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">202</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>            
+        </select>
+        <br>
+        <br>
+
+        <label>Gênero</label>
+        <br>
+
+        <label for="feninino">Feninino</label>
+        <input type="radio" name="genero" id="feminino" value="fenino">
+       
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+       
+        <label for="personalizado">Personalizado</label>
+        <input type="radio" name="genero" id="personalizado" value="personalizado">
+
+        <br>
+        <br>
+
+        <input type="submit" value="enviar">
+       <br>
+       <br>
+      <input type="file">
+
+
+    </form>
+</body>
+
+</html>

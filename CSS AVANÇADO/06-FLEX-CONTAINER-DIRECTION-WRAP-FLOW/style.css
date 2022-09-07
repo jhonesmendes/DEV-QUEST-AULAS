@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    flex-flow: row nowrap;
+}
+ 
+/* estilizacao da div */
+.container div{
+    background-color: aqua;
+    color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
